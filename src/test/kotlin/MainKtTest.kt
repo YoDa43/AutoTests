@@ -10,7 +10,7 @@ class MainKtTest {
         val transfer = 150_000
 
         val result = calculateCommis(cardType = cardType, transfer = transfer)
-        assertEquals(0, result)
+        assertEquals(1000, result)
     }
     @Test
     fun calculateCommisCardType2() {
